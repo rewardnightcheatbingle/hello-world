@@ -14,7 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 - script: echo Terry is very old!
   displayName: 'Run a one-line script that disparages Terry'
-- script: ./hello.sh
+- script: sh hello.sh
   displayName: 'Run a hello world script'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
