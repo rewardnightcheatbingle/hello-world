@@ -27,3 +27,8 @@ steps:
 - task: Bash@3
   inputs:
     filePath: 'hello.sh'
+
+- task: Bash@3
+  inputs:
+    filePath: 'hello.sh'
+    arguments: 'duplicate'
